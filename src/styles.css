@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#centerContainer {
+  border: 1px solid #000000;
+  width: 310px;
+}
+#div-1,
+#div-2,
+#div-3,
+#div-4,
+#div-5 {
+  margin: 10px;
+  height: 100px;
+  width: 160px;
+  border: 1px solid black;
+}
+#div-1,
+#div-2,
+#div-3,
+#div-4 {
+  background-color: rgb(32, 104, 133);
+  z-index: 0;
+}
+#row1,
+#row2 {
+  display: flex;
+}
+#div-5 {
+  background-color: black;
+  z-index: 1;
+}
+#row3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
